@@ -61,16 +61,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     vector_store.as_retriever(search_kwargs={'k':6}),
     return_source_documents=True,
     verbose=False
-)
- 
-
-# cite sources - helper function to prettyfy responses
-def process_llm_response(llm_response):
-    print(llm_response['result'])
-    print('\n\nSources:')
-    for source in llm_response['source_documents']:
-        print(source.metadata['source'])
-        
+)   
 #==============================FRONTEND=======================================
 st.title("Docs QA Bot using Langchain")
 st.header("Ask anything about your documents...")
