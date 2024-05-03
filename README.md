@@ -6,13 +6,15 @@ Retrieval augmented generation (RAG) is a natural language processing (NLP) tech
 
 ## Inference
 Clone this repository on your local environment.
-'''sh
-git clone 
-'''
+```sh
+https://github.com/ChrisPham-0502/RAG_using_Langchain.git
+```
+
 Then, install some necessary libraries:
 ```sh
 pip install -r setup.txt
 ```
+
   Finally, run the frontend to open chatbot:
 ```sh
 streamlit run RAG.py
