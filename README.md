@@ -7,7 +7,7 @@ Retrieval augmented generation (RAG) is a natural language processing (NLP) tech
 ## Inference
 Clone this repository on your local environment.
 ```sh
-https://github.com/ChrisPham-0502/RAG_using_Langchain.git
+git clone https://github.com/ChrisPham-0502/RAG_using_Langchain.git
 ```
 
 Then, install some necessary libraries:
