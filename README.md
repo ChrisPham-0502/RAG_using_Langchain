@@ -21,4 +21,4 @@ streamlit run RAG.py
 ```
 
 ## Configuration
-To successfully run this repo, you need to put your OpenAI API key into **.env file** or directly assign it to a variable in RAG.py: os.environ["OPENAI_API_KEY"]="".  
+To successfully run this repo, you need to put your OpenAI API key into **.env file** or directly assign it to a variable in RAG.py: os.environ["OPENAI_API_KEY"]="YOUR KEY"  
