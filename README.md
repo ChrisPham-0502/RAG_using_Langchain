@@ -12,7 +12,7 @@ git clone https://github.com/ChrisPham-0502/RAG_using_Langchain.git
 
 Then, install some necessary libraries:
 ```sh
-pip install -r setup.txt
+pip install -r requirements.txt
 ```
 
   Finally, run the frontend to open chatbot:
